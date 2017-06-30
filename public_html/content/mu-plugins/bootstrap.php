@@ -5,13 +5,13 @@
  * Author URI: http://thremes.com.br
  * Description: The Site/MUPlugins/Bootstrap plugin.
  *
- * @package   site\muplugins
+ * @package   site\muplugins\bootstrap
  * @author    Thiago Senna <thiago@thremes.com.br>
  * @copyright Copyright (c) 2017, Thiago Senna
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-namespace site\muplugins;
+namespace site\muplugins\bootstrap;
 
 add_action( 'muplugins_loaded', function () {
     define( 'WP_DEFAULT_THEME', 'twentytwelve' );
