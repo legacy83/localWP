@@ -1,13 +1,13 @@
 # Base
-/.idea
-/.DS_Store
+.idea
+.DS_Store
 
 # Provisioning
-/.vagrant
-/playbook.retry
+.vagrant
+playbook.retry
 
 # Composer
-/vendor
+vendor
 
 # WordPress
 public_html/wp
@@ -24,6 +24,8 @@ public_html/content/*
 
 # WordPress MUPlugins
 public_html/content/mu-plugins/*
+!public_html/content/mu-plugins/autoload.php
+!public_html/content/mu-plugins/bootstrap.php
 
 # WordPress Plugins
 public_html/content/plugins/*
