@@ -32,3 +32,6 @@ function get_loader()
 
     return $loader;
 }
+
+// init the composer class loader
+call_user_func( __NAMESPACE__ . '\get_loader' );
