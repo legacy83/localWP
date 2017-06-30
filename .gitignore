@@ -9,6 +9,12 @@
 # Composer
 /vendor
 
+# WordPress
+public_html/wp
+public_html/.htaccess
+public_html/wp-cli.local.yml
+public_html/wp-config.local.php
+
 # WordPress Content
 public_html/content/*
 !public_html/content/index.php
