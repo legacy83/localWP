@@ -1,4 +1,14 @@
-.idea
-.vagrant
-playbook.retry
-vendor
+# Base Ignores
+/.idea
+/.DS_Store
+
+# Provisioning
+/.vagrant
+/playbook.retry
+
+# Composer
+/vendor
+
+# WordPress
+/public_html/wp
+/public_html/content/*
