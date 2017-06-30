@@ -1,6 +1,6 @@
 {
   "name": "trsenna/localGozma14LAMP",
-  "description": "Easily vagrant up my gozma14 LAMP stack locally.",
+  "description": "Easily vagrant up my WordPress stack locally.",
   "type": "project",
   "license": "GPL-2.0+",
   "authors": [
@@ -10,15 +10,9 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/trsenna/localGozma14LAMP/issues",
-    "source": "https://github.com/trsenna/localGozma14LAMP"
+    "issues": "https://github.com/trsenna/localWP/issues",
+    "source": "https://github.com/trsenna/localWP"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/trsenna/gozma14"
-    }
-  ],
   "require": {
     "php": ">=5.3.2"
   },

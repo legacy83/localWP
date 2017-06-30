@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "765a0a8a84ab9faacd3948898f2109bd",
-    "content-hash": "0ca1e47b93b941f97fc0307c1ffc13ff",
+    "content-hash": "763884cfe67df26a6174642dedf6aea0",
     "packages": [],
     "packages-dev": [
         {
@@ -23,6 +22,7 @@
                 "shasum": ""
             },
             "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -33,11 +33,7 @@
                 }
             ],
             "description": "Easily vagrant up ubuntu/trusty64 machines with ansible roles.",
-            "support": {
-                "issues": "https://github.com/trsenna/gozma14/issues",
-                "source": "https://github.com/trsenna/gozma14"
-            },
-            "time": "2016-12-23 23:25:33"
+            "time": "2016-12-23T23:25:33+00:00"
         }
     ],
     "aliases": [],
