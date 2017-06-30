@@ -13,10 +13,12 @@
 
 namespace site\muplugins\bootstrap;
 
+// change default theme
 add_action( 'muplugins_loaded', function () {
     define( 'WP_DEFAULT_THEME', 'twentytwelve' );
 }, 0 );
 
+// disallow file changes
 add_action( 'muplugins_loaded', function () {
     define( 'DISALLOW_FILE_EDIT', TRUE );
     define( 'DISALLOW_FILE_MODS', TRUE );
