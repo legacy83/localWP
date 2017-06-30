@@ -24,12 +24,9 @@ public_html/content/*
 
 # WordPress MUPlugins
 public_html/content/mu-plugins/*
-!public_html/content/mu-plugins/index.php
 
 # WordPress Plugins
 public_html/content/plugins/*
-!public_html/content/plugins/index.php
 
 # WordPress Themes
 public_html/content/themes/*
-!public_html/content/themes/index.php
