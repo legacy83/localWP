@@ -5,33 +5,14 @@
  * Author URI: http://thremes.com.br
  * Description: The Site/MUPlugins/Autoload plugin.
  *
- * @package   site\muplugins\autoload
+ * @package   site\muplugins
  * @author    Thiago Senna <thiago@thremes.com.br>
  * @copyright Copyright (c) 2017, Thiago Senna
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-namespace site\muplugins\autoload;
+namespace site\muplugins;
 
-use Composer\Autoload\ClassLoader;
-
-/**
- * Get the composer class loader.
- *
- * @return ClassLoader
- */
-function get_loader()
-{
-    $base_dir = dirname( dirname( ABSPATH ) );
-    $vendor_dir = trailingslashit( "{$base_dir}/vendor" );
-
-    static $loader;
-    if ( !isset( $loader ) && file_exists( "{$vendor_dir}autoload.php" ) ) {
-        $loader = require_once( "{$vendor_dir}autoload.php" );
-    }
-
-    return $loader;
+if ( file_exists( dirname( dirname( ABSPATH ) ) . '/vendor/autoload.php' ) ) {
+    require_once( dirname( dirname( ABSPATH ) ) . '/vendor/autoload.php' );
 }
-
-// init the composer class loader
-call_user_func( __NAMESPACE__ . '\get_loader' );
