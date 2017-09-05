@@ -9,9 +9,9 @@
  *
  */
 
-$wp_config_local = dirname( __FILE__ ) . '/wp-config.local.php';
-if ( 'wp-config.php' === __FILE__ && file_exists( $wp_config_local ) ) {
-    require_once( $wp_config_local );
+$alternate_config = dirname( __FILE__ ) . '/wp-config.local.php';
+if ( 'wp-config.php' === __FILE__ && file_exists( $alternate_config ) ) {
+    require_once( $alternate_config );
     return;
 }
 
