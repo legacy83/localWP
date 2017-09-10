@@ -1,5 +1,5 @@
 {
-  "name": "trsenna/localWP",
+  "name": "trsenna/local-wp",
   "description": "Easily vagrant up my WordPress stack locally.",
   "type": "project",
   "license": "GPL-2.0+",
