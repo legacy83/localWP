@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
         ubuntu14.vm.box = "geerlingguy/ubuntu1404"
         ubuntu14.vm.hostname = "localWP"
         ubuntu14.vm.network "private_network", ip: "192.168.27.14"
-        ubuntu14.vm.provision "ansible" do |ansible|
+        ubuntu14.vm.provision "ansible_local" do |ansible|
             ansible.playbook = "playbook.yml"
         end
     end
