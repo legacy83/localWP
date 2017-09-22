@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name: Site/MUPlugins/Bootstrap
+ * Plugin Name: MUPlugin | bootstrap
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
- * Description: The Site/MUPlugins/Bootstrap plugin.
+ * Description: The MUPlugin bootstrap plugin.
  *
- * @package   site\muplugins
+ * @package   site\muplugin
  * @author    Thiago Senna <thiago@thremes.com.br>
  * @copyright Copyright (c) 2017, Thiago Senna
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-namespace site\muplugins;
+namespace site\muplugin;
 
 // change default theme
 add_action( 'muplugins_loaded', function () {
