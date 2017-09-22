@@ -4,6 +4,7 @@ localWP Project Template
 localWP Project Template is a skeleton best for easily vagrant up my [WordPress](http://www.wordpress.org/) 
 stack locally or rapidly creating projects.
 
+
 DIRECTORY STRUCTURE
 -------------------
 
