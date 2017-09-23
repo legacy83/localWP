@@ -26,7 +26,7 @@ INSTALLATION
 
 ### Install via Composer
 
-Move into your plugin directory and run the following [Composer](https://getcomposer.org/) command:
+Move into any directory and run the following [Composer](https://getcomposer.org/) command:
 
 ~~~
 composer create-project trsenna/local-wp
