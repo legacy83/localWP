@@ -13,11 +13,6 @@
 
 namespace site\muplugin;
 
-// change default theme
-add_action( 'muplugins_loaded', function () {
-    define( 'WP_DEFAULT_THEME', 'twentytwelve' );
-}, 0 );
-
 // register existing directory that contains themes
 add_action( 'muplugins_loaded', function () {
     $directory = trailingslashit( ABSPATH . 'wp-content/themes' );
