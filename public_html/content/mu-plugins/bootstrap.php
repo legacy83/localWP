@@ -18,9 +18,8 @@ add_action( 'muplugins_loaded', function () {
     define( 'WP_DEFAULT_THEME', 'twentytwelve' );
 }, 0 );
 
-// disallow file changes
+// register existing directory that contains themes
 add_action( 'muplugins_loaded', function () {
-    define( 'DISALLOW_FILE_EDIT', TRUE );
-    define( 'DISALLOW_FILE_MODS', TRUE );
-    define( 'AUTOMATIC_UPDATER_DISABLED', TRUE );
+    $directory = trailingslashit( ABSPATH . 'wp-content/themes' );
+    register_theme_directory( $directory );
 }, 0 );
