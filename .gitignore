@@ -1,34 +1,30 @@
 # Base
-.idea
-.DS_Store
-
-# Provisioning
-.vagrant
-playbook.retry
+/.idea
+/.DS_Store
 
 # Composer
-vendor
+/vendor
 
 # WordPress
-public_html/wp
-public_html/.htaccess
-public_html/wp-cli.local.yml
-public_html/wp-config.local.php
+/public_html/wp
+/public_html/.htaccess
+/public_html/wp-cli.local.yml
+/public_html/wp-config.local.php
 
 # WordPress Content
-public_html/content/*
-!public_html/content/index.php
-!public_html/content/mu-plugins
-!public_html/content/plugins
-!public_html/content/themes
+/public_html/content/*
+!/public_html/content/index.php
+!/public_html/content/mu-plugins
+!/public_html/content/plugins
+!/public_html/content/themes
 
 # WordPress MUPlugins
-public_html/content/mu-plugins/*
-!public_html/content/mu-plugins/autoload.php
-!public_html/content/mu-plugins/bootstrap.php
+/public_html/content/mu-plugins/*
+!/public_html/content/mu-plugins/autoload.php
+!/public_html/content/mu-plugins/bootstrap.php
 
 # WordPress Plugins
-public_html/content/plugins/*
+/public_html/content/plugins/*
 
 # WordPress Themes
-public_html/content/themes/*
+/public_html/content/themes/*

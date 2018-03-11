@@ -1,7 +1,7 @@
 localWP Project Template
 ========================
 
-localWP Project Template is a skeleton best for easily vagrant up my [WordPress](http://www.wordpress.org/) 
+localWP Project Template is a skeleton best for easily set up my [WordPress](http://www.wordpress.org/) 
 stack locally or rapidly creating projects.
 
 
@@ -18,7 +18,7 @@ DIRECTORY STRUCTURE
 REQUIREMENTS
 ------------
 
-The minimum requirement by this project template that your Web server supports PHP 5.5.9.
+The minimum requirement by this project template that your Web server supports PHP 5.6.
 
 
 INSTALLATION
