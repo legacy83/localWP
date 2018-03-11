@@ -26,9 +26,6 @@
     "wpackagist-plugin/wordpress-importer": ">=0.6.3",
     "wpackagist-theme/twentytwelve": ">=2.4"
   },
-  "require-dev": {
-    "trsenna/gozma14": "1.0.0"
-  },
   "extra": {
     "installer-paths": {
       "public_html/content/mu-plugins/{$name}/": [

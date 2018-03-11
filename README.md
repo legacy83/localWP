@@ -30,11 +30,4 @@ Move into any directory and run the following [Composer](https://getcomposer.org
 
 ~~~
 composer create-project trsenna/local-wp
-cd local-wp && vagrant up
-~~~
-
-You can then access the development site through the following URL:
-
-~~~
-http://gozma14.local/
 ~~~
