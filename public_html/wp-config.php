@@ -25,9 +25,9 @@ if ( 'wp-config.php' === basename( __FILE__ ) && file_exists( $alternate_config 
  *
  */
 
-define( 'DB_NAME', 'homestead' );
-define( 'DB_USER', 'homestead' );
-define( 'DB_PASSWORD', 'secret' );
+define( 'DB_NAME', 'gozma18' );
+define( 'DB_USER', 'gozma18' );
+define( 'DB_PASSWORD', 'gozma18@secret' );
 define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
@@ -42,8 +42,8 @@ define( 'DB_COLLATE', '' );
  *
  */
 
-define( 'WP_HOME', 'http://homestead.local' );
-define( 'WP_SITEURL', 'http://homestead.local/wp' );
+define( 'WP_HOME', 'http://gozma18.local' );
+define( 'WP_SITEURL', 'http://gozma18.local/wp' );
 
 
 /*

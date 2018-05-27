@@ -1,6 +1,9 @@
 # Base
-/.idea
-/.DS_Store
+.idea
+.DS_Store
+
+# Vagrant
+/.vagrant
 
 # Composer
 /vendor
