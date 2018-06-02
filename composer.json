@@ -20,7 +20,7 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=5.6",
     "johnpbloch/wordpress": ">=4.9",
     "wpackagist-plugin/regenerate-thumbnails": ">=2.2.6",
     "wpackagist-plugin/wordpress-importer": ">=0.6.3",
